@@ -3,12 +3,13 @@ first = input('Введите число:')
 second = input('Введите еще одно число:')
 third = input('Введите еще одно число:')
 if first == second == third:
-    print('3')
+    a = '3'
 elif first == second:
-    print('2')
+    a = '2'
 elif first == third:
-    print('2')
+    a = '2'
 elif second == third:
-    print('2')
+    a = '2'
 else:
-    print("0")
+    a = '0'
+print(f'Kоличество равных: {a}')
